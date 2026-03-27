@@ -1,7 +1,7 @@
 let homeEl = document.getElementById("homescore");
-let guestEl = document.getElementById("guestscore");
+let awayEl = document.getElementById("awayscore");
 let homeScore = 0;
-let guestScore = 0;
+let awayScore = 0;
 
 
 function addOneHome() {
@@ -22,17 +22,17 @@ function addThreeHome() {
 homeEl.textContent = homeScore;
 }
 
-function addOneGuest() {
-    guestScore++;
-guestEl.textContent = guestScore;
+function addOneAway() {
+    awayScore++;
+awayEl.textContent = awayScore;
 }
 
-function addTwoGuest() {
-    guestScore += 2;
-guestEl.textContent = guestScore;
+function addTwoAway() {
+    awayScore += 2;
+awayEl.textContent = awayScore;
 }
 
-function addThreeGuest() {
-    guestScore += 3;
-guestEl.textContent = guestScore;
+function addThreeAway() {
+    awayScore += 3;
+awayEl.textContent = awayScore;
 }
