@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lenny" />
+    <meta name="description" content="A simple count page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count</title>
+
+    <link rel="stylesheet" href="./css/count.css" />
+  </head>
+  <body>
+    <div class="countbox">
+      <h1>People entered:</h1>
+      <p class="num-count">0</p>
+
+      <button class="btn" type="button" onclick="increment()">INCREMENT</button>
+      <button id="save-btn" type="button" onclick="save()">SAVE</button>
+
+      <p id="save-el"></p>
+    </div>
+    <script src="src/count.js"></script>
+  </body>
+</html>

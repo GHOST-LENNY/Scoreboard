@@ -1,0 +1,58 @@
+.countbox {
+  /* display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh; */
+  height: 300px;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  font-size: 24px;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 8px 30px;
+  color: white;
+  background-color: red;
+}
+
+.btn:hover {
+  background-color: blueviolet;
+}
+
+#save-btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 30px;
+  color: white;
+  background-color: blueviolet;
+}
+
+#save-btn:hover {
+  background-color: red;
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+p#save-el {
+  display: block;
+  margin-top: 20px 20px 0 20px;
+  text-align: center;
+  color: royalblue;
+  width: 300px;
+  border: 2px solid royalblue;
+}

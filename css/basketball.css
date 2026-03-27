@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-color: blue;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#home h2{
+/* height: 50px;
+width: 100px; */
+background-color: black;
+color: tomato;
+text-align: center;
+padding: 20px 30px;
+}
+
+#guest h2{
+/* height: 50px;
+width: 100px; */
+background-color: black;
+color: tomato;
+text-align: center;
+padding: 20px 30px;
+}
+
+button {
+    background-color: black;
+    color: tomato;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
