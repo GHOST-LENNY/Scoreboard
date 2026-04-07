@@ -1,0 +1,22 @@
+body {
+margin: 50px 0;
+}
+
+#apple-shelf {
+width: 400px;
+height: 100px;
+background-color: brown;
+padding: 8px 16px;
+margin: 30px auto;
+border-radius: 30px;
+
+}
+
+#orange-shelf {
+width: 400px;
+height: 100px;
+background-color: orange;
+margin: 0 auto;
+padding: 8px 16px;
+border-radius: 30px;
+}
